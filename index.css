@@ -1,0 +1,122 @@
+/*General */
+body,
+html {
+    font-size: 1.2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #333;
+}
+h1,h2,h3 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+/* showcase */
+.grid {
+    background-image: url(./img/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    display: grid;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Section A */
+
+#section-a {
+    background-color: whitesmoke;
+}
+
+.section-a-contents {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: black;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/*Section B */
+
+.grid-b{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;   
+    margin: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card{
+    background-color: whitesmoke;   
+}
+
+.card-content{
+    padding: 5%; 
+}
+
+/*Section C */
+
+.section-c{
+    background: whitesmoke;
+    padding: 50px;    
+}
+/*Section D and E */
+.box{
+    padding: 2em;
+}
+
+.section-d-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: whitesmoke;
+}
+
+.section-e-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: whitesmoke;
+    padding: 0;
+}
+
+.diff-color{
+    background-color: blue;
+}
+
+.box:first-child{
+    background: #2690d4;
+}
+.box2{
+    background: black;
+}
+a{
+    color: #2690d4;
+    text-decoration: none;
+    target:blank;
+}
